@@ -1,0 +1,23 @@
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        printThreeWords();
+        checkSumSign();
+        printColor();
+        compareNumbers();
+        System.out.println(isSumBetween10And20(5, 7));
+        printPositiveOrNegative(-5);
+        System.out.println(isNegative(-3));
+        printStringMultipleTimes("Hello Java", 4);
+        System.out.println(isLeapYear(2020));
+        replaceZerosAndOnes();
+        fillArrayWithSequence();
+        multiplySmallNumbers();
+        fillDiagonalWithOnes();
+        int[] arr = createArray(5, 7);
+        System.out.println(Arrays.toString(arr));
+    }
+
+  
